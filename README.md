@@ -4,7 +4,7 @@ Authors: [Shengbo Tan](https://github.com/goblin327), [Zeyu Zhang](https://steve
 
 *Corresponding author
 
-[[Paper Link]()]
+[[**Paper Link**](https://arxiv.org/pdf/2408.00496)] [[Papers With Code]()]
 
 Medical imaging segmentation plays a significant
 role in the automatic recognition and analysis of lesions. State-of-
