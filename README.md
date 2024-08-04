@@ -37,7 +37,12 @@ method to real-world clinical practice.
 
 For academic use, please cite:
 ```
-TBD
+@article{tan2024segstitch,
+  title={SegStitch: Multidimensional Transformer for Robust and Efficient Medical Imaging Segmentation},
+  author={Tan, Shengbo and Zhang, Zeyu and Cai, Ying and Ergu, Daji and Wu, Lin and Hu, Binbin and Yu, Pengzhang and Zhao, Yang},
+  journal={arXiv preprint arXiv:2408.00496},
+  year={2024}
+}
 ```
 
 # Contact us
