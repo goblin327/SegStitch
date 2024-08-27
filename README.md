@@ -31,9 +31,9 @@ method to real-world clinical practice.
 
 ![qkv3](https://github.com/user-attachments/assets/18803fe5-c9ec-4e67-9980-7479d3f810ac)
 
-## Code will be released later. Stay tuned.
+### Code will be released later. Stay tuned.
 
-# Citation
+## Citation
 
 For academic use, please cite:
 ```
@@ -45,6 +45,6 @@ For academic use, please cite:
 }
 ```
 
-# Contact us
+## Contact us
 
 Please do not hesitate to open an issue. You don't want to send us an email since you probably not getting prompt feedback.
