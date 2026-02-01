@@ -1,31 +1,38 @@
 # SegStitch: Multidimensional Transformer for Robust and Efficient Medical Imaging Segmentation
 
-Authors: [Shengbo Tan](https://github.com/goblin327), [Zeyu Zhang](https://steve-zeyu-zhang.github.io/)†, [Ying Cai](https://ieeexplore.ieee.org/author/37087137422)*, Daji Ergu, Lin Wu, Binbin Hu, Pengzhang Yu, [Yang Zhao](https://yangyangkiki.github.io/)
+#Authors: [Shengbo Tan](https://github.com/goblin327), [Zeyu Zhang](https://steve-zeyu-zhang.github.io/)†,Daji Ergu, [Ying Cai](https://ieeexplore.ieee.org/author/37087137422)*,  Lin Wu, Binbin Hu, Pengzhang Yu, [Yang Zhao](https://yangyangkiki.github.io/)
 
-*Corresponding author. †Project lead.
+#*Corresponding author. †Project lead.
+
+# SegStitch: Multidimensional Transformer for Robust and Efficient Medical Imaging Segmentation
+
+Authors:  
+[Shengbo Tan](https://github.com/goblin327),  
+Zeyu Zhang,  
+Daji Ergu,  
+Zhang Yi,  
+Junjie Hu,  
+[Ying Cai]*,  
+Xinran Wang,  
+[Yang Zhao].
+
+*Corresponding author.
 
 [[**Paper Link**](https://arxiv.org/pdf/2408.00496)] [[Papers With Code]()]
 
-Medical imaging segmentation plays a significant
-role in the automatic recognition and analysis of lesions. State-of-
-the-art methods, particularly those utilizing transformers, have
-been prominently adopted in 3D semantic segmentation due to
-their superior performance in scalability and generalizability.
-However, plain vision transformers encounter challenges due
-to their neglect of local features and their high computational
-complexity. To address these challenges, we introduce three
-key contributions: Firstly, we proposed SegStitch, an innovative
-architecture that integrates transformers with denoising ODE
-blocks. Instead of taking whole 3D volumes as inputs, we adapt
-axial patches and customize patch-wise queries to ensure seman-
-tic consistency. Additionally, we conducted extensive experiments
-on the BTCV and ACDC datasets, achieving improvements up to
-11.48% and 6.71% respectively in mDSC, compared to state-of-
-the-art methods. Lastly, our proposed method demonstrates out-
-standing efficiency, reducing the number of parameters by 36.7%
-and the number of FLOPS by 10.7% compared to UNETR.
-This advancement holds promising potential for adapting our
-method to real-world clinical practice. 
+Medical image segmentation is a critical step in lesion identification and analysis.
+However, existing methods still face significant challenges when segmenting elongated organs accurately.
+To address this issue, we propose a novel segmentation approach.
+First,3D medical images are divided into a set of independent image patches.
+Next, we design a Dual-Granularity Attention (DGA) block.
+This block employs a shared self-attention mechanism for feature extraction.
+It establishes interactions across different image patches, thereby enhancing the modeling of long-range dependencies.
+Finally, to mitigate the noise introduced by image patch partitioning, an Ordinary Differential Equation (ODE) block is introduced.
+This block smoothly connects individual image patches to generate a complete 3D segmentation result.
+The proposed method effectively alleviates the difficulties of elongated organ segmentation and significantly improves model stability.
+Experimental results demonstrate that, compared with existing methods, the proposed approach improves the mean Dice similarity coefficient (mDSC) by 11.48\% on the Synapse dataset and by 6.71\% on the ACDC dataset.
+Meanwhile, the number of model parameters is reduced by 36.7\%, indicating strong potential for clinical applications.
+To support reproducibility, the source code has been released on GitHub at: \url{https://github.com/goblin327/SegStitch}.
 
 ![flop10](https://github.com/user-attachments/assets/2f2e679c-1933-41b1-84af-513e25791c2d)
 
