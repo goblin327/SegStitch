@@ -1,8 +1,4 @@
-# SegStitch: Multidimensional Transformer for Robust and Efficient Medical Imaging Segmentation
 
-#Authors: [Shengbo Tan](https://github.com/goblin327), [Zeyu Zhang](https://steve-zeyu-zhang.github.io/)†,Daji Ergu, [Ying Cai](https://ieeexplore.ieee.org/author/37087137422)*,  Lin Wu, Binbin Hu, Pengzhang Yu, [Yang Zhao](https://yangyangkiki.github.io/)
-
-#*Corresponding author. †Project lead.
 
 # SegStitch: Multidimensional Transformer for Robust and Efficient Medical Imaging Segmentation
 
